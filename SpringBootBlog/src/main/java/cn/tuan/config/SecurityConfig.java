@@ -46,6 +46,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/","/page/**","/article/**","/login").permitAll()
                 .antMatchers("/back/**","/assets/**","/user/**","/article_img/**").permitAll()
                 .antMatchers("/admin/**").hasRole("admin")
+                .antMatchers( "/v2/api-docs",
+                        "/swagger-resources/**",
+                        "/swagger-ui.html",
+                        "/webjars/**").hasRole("admin")
                 .anyRequest().authenticated();
         // 2、自定义用户登录控制
         http.formLogin()

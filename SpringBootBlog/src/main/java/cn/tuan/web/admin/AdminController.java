@@ -19,8 +19,6 @@ import java.util.List;
 /**
  * @Classname AdminController
  * @Description 后台管理模块
- * @Date 2019-3-14 10:39
- * @Created by CrazyStone
  */
 @Controller
 @RequestMapping("/admin")

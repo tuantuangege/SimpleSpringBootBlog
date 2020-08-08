@@ -8,8 +8,6 @@ import java.util.Map;
 /**
  * @Classname LoginController
  * @Description 用户登录模块
- * @Date 2019-3-14 14:15
- * @Created by CrazyStone
  */
 @Controller
 public class LoginController {

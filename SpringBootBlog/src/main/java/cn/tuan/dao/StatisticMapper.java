@@ -5,12 +5,7 @@ import cn.tuan.model.entiry.Statistic;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
-/**
- * @Classname StatisticMapper
- * @Description TODO
- * @Date 2019-3-14 9:45
- * @Created by CrazyStone
- */
+
 
 @Mapper
 public interface StatisticMapper {

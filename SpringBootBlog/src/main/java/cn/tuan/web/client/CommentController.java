@@ -22,8 +22,6 @@ import java.util.Date;
 /**
  * @Classname CommentController
  * @Description TODO
- * @Date 2019-3-14 10:23
- * @Created by CrazyStone
  */
 @Controller
 @RequestMapping("/comments")
